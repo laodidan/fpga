@@ -1,0 +1,22 @@
+Location         : D:\AAAAAA\QS\FPGA\lesson10\td_project\lesson4_example5_fixed_Runs\phy_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : top
+Device           : EG4S20BG256
+Speed            : NA
+
+Timing Mode      : final
+Setup            : WNS -6565ps  TNS -2611274ps  NUM_FEPS  1922
+Hold             : WNS    11ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+--------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time  |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+--------------------------------------------------------------------------------------------------
+      route      |    2     |  2m0s(73%)  |   166(68%)    |       1140        |       1140        
+      place      |    2     |  44s(26%)   |    77(31%)    |       1133        |       1133        
+    import_db    |    1     |   0s(0%)    |     0(0%)     |        288        |        288        
+  import_device  |    1     |   0s(0%)    |     0(0%)     |        84         |        84         
+--------------------------------------------------------------------------------------------------
+      total      |    6     |    2m44s    |      243      |       1140        |       1140        
+--------------------------------------------------------------------------------------------------

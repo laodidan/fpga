@@ -1,0 +1,249 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = C:/Anlogic/TD_6.2.1_Engineer_6.2.168.116/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     CodexSandboxOffline
+   Run Date =   Wed Oct  7 13:14:15 2026
+
+   Run on =     LAPTOP-SGSJHB8L
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project lesson4_example5_fixed.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-8007 ERROR: cannot open Verilog file '../../../user_source/hdl_source/display/brightness_contrast_adjust.v'
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/IP/afifo_16_32_256.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/IP/afifo_32_16_256.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/hdmi_phy_warpper.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/top_tf_hdmi_audio.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_bmp.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/seg_decoder.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/seg_scan.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_cmd.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_sec_read_write.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_top.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/spi_master.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sdram.v
+HDL-1007 : analyze included file D:\AAAAAA\QS\FPGA\lesson10\td_project\/../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : back to file '../../../user_source/hdl_source/SD/sdram.v' in ../../../user_source/hdl_source/SD/sdram.v(10)
+HDL-1007 : undeclared symbol 'SDR_CKE', assumed default net type 'wire' in ../../../user_source/hdl_source/SD/sdram.v(89)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_as_ram.enc.v
+HDL-1007 : analyze included file ../../../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(10)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_as_ram.enc.v' in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(45)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_init_ref.enc.v
+HDL-1007 : analyze included file D:\AAAAAA\QS\FPGA\lesson10\td_project\/../user_source/hdl_source/include/global_def.v in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(11)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(57)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_init_ref.enc.v' in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(149)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/include/sdr_wrrd.enc.v
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-1007 : back to file '../../../user_source/hdl_source/include/sdr_wrrd.enc.v' in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(19)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_audio_acr_packetizer.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_audio_infoframe_packetizer.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_audio_packet_scheduler.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_audio_sample_packetizer.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_audio_symbol_core.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_bch8.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_data_island_mapper.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_data_island_scheduler.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_terc4_encoder.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/hdmi_tmds_channel_encoder.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/lesson3_board_adapter.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/m06_pcm_contract_adapter.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/media_hdmi_audio_bridge.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/pcm_media_tone.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/sys_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../user_source/hdl_source/lesson3/sys_pll.v(85)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/lesson3/video_pll.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../../user_source/hdl_source/lesson3/video_pll.v(78)
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/reset_sync.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/fat32_volume_scanner.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/fat32_file_streamer.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_sector_adapter.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_key_control.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_card_bmp_4bank.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_frame_loader.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_player_control.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_sdram_write_cdc.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_pixel_cdc.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/fifo_prefetch_2.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/video_timing_ctrl.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/rgb_video_adapter.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/status_osd_overlay.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/osd_overlay_24.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/osd_status_cdc.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/osd_status_bridge.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/video_fade_transition.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/transition_blend.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/media_transition_reader.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/sd_arbiter.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/promax_audio_waveform.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/thumbnail_layout.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/audio/audio_source_mux.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/SD/thumbnail_reader.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/audio/sync_fade_gain.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/audio/sync_fade_gain_video_audio.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/audio/volume_ctrl.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/flash/volume_flash_store.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/flash/w25q64_ctrl.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/rtl/startup_ctrl.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/brightness_contrast_control.v
+HDL-1007 : analyze verilog file ../../../user_source/hdl_source/display/thumbnail_controller.v
+PRJ-1401 : Successfully analyzed 66 source files.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top top"
+HDL-1007 : elaborate module top in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(3)
+HDL-1007 : elaborate module reset_sync in ../../../user_source/hdl_source/reset_sync.v(1)
+HDL-1007 : elaborate module sys_pll in ../../../user_source/hdl_source/lesson3/sys_pll.v(24)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",FBCLK_DIV=2,CLKC0_DIV=10,CLKC1_DIV=8,CLKC2_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=9,CLKC1_CPHASE=7,CLKC2_CPHASE=3,GMC_GAIN=4,ICP_CURRENT=29,KVCO=4,LPF_CAPACITOR=1,LPF_RESISTOR=2,SYNC_ENABLE="DISABLE") in C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module video_pll in ../../../user_source/hdl_source/lesson3/video_pll.v(23)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,CLKC0_DIV=40,CLKC1_DIV=8,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=39,CLKC1_CPHASE=7,GMC_GAIN=2,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=1,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module startup_ctrl in ../../../user_source/hdl_source/rtl/startup_ctrl.v(1)
+HDL-1007 : elaborate module sd_card_bmp_4bank in ../../../user_source/hdl_source/SD/sd_card_bmp_4bank.v(6)
+HDL-1007 : elaborate module key_press_debounce(DEBOUNCE_MS=50) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(653)
+HDL-1007 : elaborate module fat32_volume_scanner in ../../../user_source/hdl_source/SD/fat32_volume_scanner.v(3)
+HDL-1007 : elaborate module fat32_file_streamer in ../../../user_source/hdl_source/SD/fat32_file_streamer.v(3)
+HDL-1007 : elaborate module sd_sector_adapter in ../../../user_source/hdl_source/SD/sd_sector_adapter.v(6)
+HDL-1007 : elaborate module media_key_control in ../../../user_source/hdl_source/SD/media_key_control.v(7)
+HDL-1007 : elaborate module thumbnail_controller in ../../../user_source/hdl_source/display/thumbnail_controller.v(3)
+HDL-1007 : elaborate module sd_arbiter in ../../../user_source/hdl_source/SD/sd_arbiter.v(6)
+HDL-1007 : elaborate module sd_card_top in ../../../user_source/hdl_source/SD/sd_card_top.v(2)
+HDL-1007 : elaborate module sd_card_sec_read_write in ../../../user_source/hdl_source/SD/sd_card_sec_read_write.v(2)
+HDL-1007 : elaborate module sd_card_cmd in ../../../user_source/hdl_source/SD/sd_card_cmd.v(2)
+HDL-1007 : elaborate module spi_master in ../../../user_source/hdl_source/SD/spi_master.v(2)
+HDL-1007 : elaborate module seg_decoder in ../../../user_source/hdl_source/SD/seg_decoder.v(2)
+HDL-1007 : elaborate module seg_scan in ../../../user_source/hdl_source/SD/seg_scan.v(2)
+HDL-1007 : elaborate module media_pixel_cdc in ../../../user_source/hdl_source/SD/media_pixel_cdc.v(6)
+HDL-1007 : elaborate module async_command_fifo(DATA_WIDTH=34) in ../../../user_source/hdl_source/SD/media_sdram_write_cdc.v(121)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../user_source/hdl_source/SD/media_sdram_write_cdc.v(143)
+HDL-1007 : elaborate module media_frame_loader in ../../../user_source/hdl_source/SD/media_frame_loader.v(3)
+HDL-1007 : extracting RAM for identifier 'fifo_mem' in ../../../user_source/hdl_source/SD/media_frame_loader.v(59)
+HDL-1007 : elaborate module video_timing_ctrl(ACTIVE_LAST=1) in ../../../user_source/hdl_source/SD/video_timing_ctrl.v(15)
+HDL-1007 : elaborate module media_player_control(FADE_FRAMES=16,DEFAULT_PERIOD_CYCLES=32'b010001111000011010001100000000) in ../../../user_source/hdl_source/SD/media_player_control.v(3)
+HDL-1007 : elaborate module video_fade_transition in ../../../user_source/hdl_source/display/video_fade_transition.v(6)
+HDL-1007 : elaborate module thumbnail_layout in ../../../user_source/hdl_source/display/thumbnail_layout.v(5)
+HDL-7206 CRITICAL-WARNING: 'prev_display_mode' should be on the sensitivity list. Please consider rewriting code in ../../../user_source/hdl_source/display/thumbnail_layout.v(51)
+HDL-7206 CRITICAL-WARNING: 'transition_seen' should be on the sensitivity list. Please consider rewriting code in ../../../user_source/hdl_source/display/thumbnail_layout.v(51)
+HDL-7206 CRITICAL-WARNING: 'transition_active' should be on the sensitivity list. Please consider rewriting code in ../../../user_source/hdl_source/display/thumbnail_layout.v(59)
+HDL-7206 CRITICAL-WARNING: 'transition_cnt' should be on the sensitivity list. Please consider rewriting code in ../../../user_source/hdl_source/display/thumbnail_layout.v(61)
+HDL-7206 CRITICAL-WARNING: 'transition_cnt' should be on the sensitivity list. Please consider rewriting code in ../../../user_source/hdl_source/display/thumbnail_layout.v(62)
+HDL-5369 WARNING: latch inferred for net 'prev_display_mode' in ../../../user_source/hdl_source/display/thumbnail_layout.v(43)
+HDL-1007 : elaborate module media_transition_reader in ../../../user_source/hdl_source/SD/media_transition_reader.v(8)
+HDL-1007 : extracting RAM for identifier 'thumb_resp_mem' in ../../../user_source/hdl_source/SD/media_transition_reader.v(84)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(226)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(226)
+HDL-1007 : elaborate module rfifo_32_32_512(AL_FULL_NUM=504) in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo_32_32_512 in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(250)
+HDL-1007 : elaborate module ram_infer_rfifo_32_32_512(ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=9) in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(333)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(398)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../../user_source/hdl_source/IP/afifo_32_16_256.v(231)
+HDL-1007 : elaborate module fifo_prefetch_2 in ../../../user_source/hdl_source/SD/fifo_prefetch_2.v(3)
+HDL-1007 : elaborate module thumbnail_reader in ../../../user_source/hdl_source/SD/thumbnail_reader.v(7)
+HDL-1007 : extracting RAM for identifier 'line_buf0' in ../../../user_source/hdl_source/SD/thumbnail_reader.v(47)
+HDL-1007 : extracting RAM for identifier 'line_buf1' in ../../../user_source/hdl_source/SD/thumbnail_reader.v(48)
+HDL-1007 : elaborate module osd_status_bridge in ../../../user_source/hdl_source/display/osd_status_bridge.v(5)
+HDL-1007 : elaborate module osd_status_cdc(WIDTH=13) in ../../../user_source/hdl_source/display/osd_status_cdc.v(9)
+HDL-1007 : elaborate module osd_status_cdc(WIDTH=16) in ../../../user_source/hdl_source/display/osd_status_cdc.v(9)
+HDL-1007 : elaborate module transition_blend in ../../../user_source/hdl_source/display/transition_blend.v(6)
+HDL-1007 : elaborate module brightness_contrast_control in ../../../user_source/hdl_source/display/brightness_contrast_control.v(2)
+HDL-7144 CRITICAL-WARNING: instantiate unknown module brightness_contrast_adjust in ../../../user_source/hdl_source/top_tf_hdmi_audio.v(526)
+HDL-1007 : elaborate module osd_overlay_24 in ../../../user_source/hdl_source/display/osd_overlay_24.v(8)
+HDL-1007 : elaborate module status_osd_overlay in ../../../user_source/hdl_source/display/status_osd_overlay.v(3)
+HDL-1007 : elaborate module promax_audio_waveform in ../../../user_source/hdl_source/display/promax_audio_waveform.v(3)
+HDL-1007 : extracting RAM for identifier 'sample_bank0' in ../../../user_source/hdl_source/display/promax_audio_waveform.v(31)
+HDL-1007 : extracting RAM for identifier 'sample_bank1' in ../../../user_source/hdl_source/display/promax_audio_waveform.v(32)
+HDL-1007 : elaborate module rgb_video_adapter in ../../../user_source/hdl_source/SD/rgb_video_adapter.v(16)
+HDL-1007 : elaborate module sdram in ../../../user_source/hdl_source/SD/sdram.v(12)
+HDL-1007 : elaborate module sdr_as_ram(self_refresh_open=1'b1) in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(12)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-1007 : elaborate module sdr_init_ref(self_refresh_open=1'b1) in ../../../user_source/hdl_source/include/sdr_init_ref.enc.v(13)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-1007 : elaborate module ** in ../../../user_source/hdl_source/include/sdr_wrrd.enc.v(3)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../../user_source/hdl_source/include/sdr_as_ram.enc.v(17)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(683)
+HDL-1007 : elaborate module lesson3_video_x in ../../../user_source/hdl_source/lesson3/lesson3_board_adapter.v(48)
+HDL-1007 : elaborate module volume_flash_store in ../../../user_source/hdl_source/rtl/flash/volume_flash_store.v(2)
+HDL-1007 : elaborate module w25q64_ctrl in ../../../user_source/hdl_source/rtl/flash/w25q64_ctrl.v(2)
+HDL-1007 : elaborate module key_press_debounce(CLK_FREQ_HZ=25000000,DEBOUNCE_MS=50) in ../../../user_source/hdl_source/SD/sd_card_bmp.v(653)
+HDL-1007 : elaborate module media_hdmi_audio_bridge in ../../../user_source/hdl_source/lesson3/media_hdmi_audio_bridge.v(8)
+HDL-1007 : elaborate module pcm_media_tone in ../../../user_source/hdl_source/lesson3/pcm_media_tone.v(9)
+HDL-1007 : extracting RAM for identifier 'fifo' in ../../../user_source/hdl_source/lesson3/pcm_media_tone.v(33)
+HDL-1007 : elaborate module sync_fade_gain_video_audio in ../../../user_source/hdl_source/rtl/audio/sync_fade_gain_video_audio.v(7)
+HDL-1007 : extracting RAM for identifier 'fifo_left' in ../../../user_source/hdl_source/rtl/audio/sync_fade_gain_video_audio.v(78)
+HDL-1007 : extracting RAM for identifier 'fifo_right' in ../../../user_source/hdl_source/rtl/audio/sync_fade_gain_video_audio.v(79)
+HDL-1007 : elaborate module sync_fade_gain in ../../../user_source/hdl_source/rtl/audio/sync_fade_gain.v(2)
+HDL-1007 : elaborate module audio_source_mux in ../../../user_source/hdl_source/rtl/audio/audio_source_mux.v(7)
+HDL-1007 : elaborate module volume_ctrl in ../../../user_source/hdl_source/rtl/audio/volume_ctrl.v(2)
+HDL-1007 : elaborate module m06_pcm_contract_adapter in ../../../user_source/hdl_source/lesson3/m06_pcm_contract_adapter.v(6)
+HDL-1007 : elaborate module hdmi_audio_symbol_core in ../../../user_source/hdl_source/lesson3/hdmi_audio_symbol_core.v(3)
+HDL-1007 : elaborate module hdmi_audio_sample_packetizer in ../../../user_source/hdl_source/lesson3/hdmi_audio_sample_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_bch8 in ../../../user_source/hdl_source/lesson3/hdmi_bch8.v(3)
+HDL-1007 : elaborate module hdmi_bch8(DATA_BYTES=7) in ../../../user_source/hdl_source/lesson3/hdmi_bch8.v(3)
+HDL-1007 : elaborate module hdmi_audio_acr_packetizer in ../../../user_source/hdl_source/lesson3/hdmi_audio_acr_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_audio_infoframe_packetizer in ../../../user_source/hdl_source/lesson3/hdmi_audio_infoframe_packetizer.v(3)
+HDL-1007 : elaborate module hdmi_audio_packet_scheduler in ../../../user_source/hdl_source/lesson3/hdmi_audio_packet_scheduler.v(3)
+HDL-1007 : elaborate module hdmi_data_island_scheduler in ../../../user_source/hdl_source/lesson3/hdmi_data_island_scheduler.v(3)
+HDL-1007 : elaborate module hdmi_data_island_mapper in ../../../user_source/hdl_source/lesson3/hdmi_data_island_mapper.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder in ../../../user_source/hdl_source/lesson3/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_terc4_encoder in ../../../user_source/hdl_source/lesson3/hdmi_terc4_encoder.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder(CHANNEL=1) in ../../../user_source/hdl_source/lesson3/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_tmds_channel_encoder(CHANNEL=2) in ../../../user_source/hdl_source/lesson3/hdmi_tmds_channel_encoder.v(3)
+HDL-1007 : elaborate module hdmi_phy_wrapper in ../../../user_source/hdl_source/hdmi_phy_warpper.v(3)
+HDL-1007 : elaborate module lane_lvds_10_1 in ../../../user_source/hdl_source/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in C:\Anlogic\TD_6.2.1_Engineer_6.2.168.116\arch/eagle_macro.v(66)
+
